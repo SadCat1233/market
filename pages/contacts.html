@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Контакты 099 Supply: e-mail, телефон, рабочие часы и форма обратной связи для заявки на mockup-набор."
+  >
+  <title>099 Supply - Контакты</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="../index.html" aria-label="099 Supply, главная">099</a>
+
+      <nav class="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li class="site-nav__item"><a class="site-nav__link" href="../index.html">Главная</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="catalog.html">Каталог</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="product.html">Товар</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="order.html">Заявка</a></li>
+          <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" aria-labelledby="contacts-title">
+      <p class="page-hero__eyebrow">Contact desk</p>
+      <h1 class="page-hero__title" id="contacts-title">Контакты</h1>
+      <p class="page-hero__text">
+        Напишите, если нужен готовый mockup-набор, подбор объектов для каталога или аккуратная витрина под запуск.
+      </p>
+    </section>
+
+    <section class="section section--compact" aria-labelledby="contact-details-title">
+      <div class="section__header">
+        <h2 class="section__title" id="contact-details-title">Связь</h2>
+        <a class="section__link" href="../index.html#popular">Популярное</a>
+      </div>
+
+      <div class="contacts-layout">
+        <section class="contact-card" aria-labelledby="studio-title">
+          <span class="contact-card__index">D 001</span>
+          <h3 class="contact-card__title" id="studio-title">099 Supply Desk</h3>
+
+          <dl class="contact-list">
+            <div class="contact-list__row">
+              <dt class="contact-list__term">E-mail</dt>
+              <dd class="contact-list__value"><a href="mailto:hello@099.supply">hello@099.supply</a></dd>
+            </div>
+            <div class="contact-list__row">
+              <dt class="contact-list__term">Phone</dt>
+              <dd class="contact-list__value"><a href="tel:+79990090990">+7 999 009-09-90</a></dd>
+            </div>
+            <div class="contact-list__row">
+              <dt class="contact-list__term">Hours</dt>
+              <dd class="contact-list__value">Mon-Fri / 10:00-19:00</dd>
+            </div>
+            <div class="contact-list__row">
+              <dt class="contact-list__term">Address</dt>
+              <dd class="contact-list__value">Moscow / digital showroom</dd>
+            </div>
+          </dl>
+
+          <div class="contact-card__mark" aria-hidden="true">
+            <span>0</span>
+            <span>9</span>
+            <span>9</span>
+          </div>
+        </section>
+
+        <section class="form-card" aria-labelledby="feedback-title">
+          <div class="form-card__header">
+            <span class="form-card__index">F 002</span>
+            <h3 class="form-card__title" id="feedback-title">Обратная связь</h3>
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="contact-name">Имя</label>
+              <input class="contact-form__input" id="contact-name" name="name" type="text" placeholder="Ваше имя" required>
+            </div>
+
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="contact-email">E-mail</label>
+              <input class="contact-form__input" id="contact-email" name="email" type="email" placeholder="mail@example.com" required>
+            </div>
+
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="contact-phone">Телефон</label>
+              <input class="contact-form__input" id="contact-phone" name="phone" type="tel" placeholder="+7 999 000-00-00">
+            </div>
+
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="contact-topic">Тема</label>
+              <select class="contact-form__input" id="contact-topic" name="topic" required>
+                <option value="">Выберите тему</option>
+                <option value="mockups">Mockup-набор</option>
+                <option value="catalog">Каталог объектов</option>
+                <option value="support">Вопрос по заявке</option>
+              </select>
+            </div>
+
+            <div class="contact-form__field contact-form__field--wide">
+              <label class="contact-form__label" for="contact-message">Комментарий</label>
+              <textarea class="contact-form__input contact-form__textarea" id="contact-message" name="message" rows="5" placeholder="Опишите задачу" required></textarea>
+            </div>
+
+            <label class="contact-form__consent">
+              <input class="contact-form__checkbox" name="agreement" type="checkbox" required>
+              <span>Согласен на обработку данных</span>
+            </label>
+
+            <div class="contact-form__actions">
+              <button class="button button--ghost" type="reset">Очистить</button>
+              <button class="button button--primary" type="submit">Отправить</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-order" href="order.html" aria-label="Оставить заявку"><span class="floating-order__icon">+</span></a>
+
+  <footer class="site-footer">
+    <p class="site-footer__text">099 Supply / curated digital objects / 2026</p>
+  </footer>
+</body>
+</html>

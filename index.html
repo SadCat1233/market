@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Главная страница каталога 099 Supply: минималистичные mockup-объекты, UI-компоненты и услуги для цифровых витрин."
+  >
+  <title>099 Supply - Главная</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="index.html" aria-label="099 Supply, главная">099</a>
+
+      <nav class="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="index.html">Главная</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="pages/catalog.html">Каталог</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="pages/product.html">Товар</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="pages/order.html">Заявка</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="pages/contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Black-on-white catalog</p>
+        <h1 class="hero__title" id="hero-title">099 Supply</h1>
+        <p class="hero__text">
+          Каталог монохромных mockup-объектов и интерфейсных компонентов для аккуратных цифровых витрин.
+        </p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="pages/catalog.html">Смотреть каталог</a>
+          <a class="button button--ghost" href="#popular">Популярное</a>
+        </div>
+      </div>
+
+      <div class="hero__counter" aria-label="099">
+        <span>0</span>
+        <span>9</span>
+        <span>9</span>
+      </div>
+    </section>
+
+    <section class="section" id="advantages" aria-labelledby="advantages-title">
+      <div class="section__header">
+        <h2 class="section__title" id="advantages-title">Преимущества</h2>
+        <a class="section__link" href="#popular">К товарам</a>
+      </div>
+
+      <div class="advantages">
+        <article class="advantage-card">
+          <span class="advantage-card__index">A 001</span>
+          <h3 class="advantage-card__title">Единая сетка</h3>
+          <p class="advantage-card__text">Все объекты собраны в ровные карточки с каталоговой подписью.</p>
+        </article>
+
+        <article class="advantage-card">
+          <span class="advantage-card__index">A 002</span>
+          <h3 class="advantage-card__title">Чистые файлы</h3>
+          <p class="advantage-card__text">Mockup-пакеты подготовлены для быстрой передачи в лендинги и презентации.</p>
+        </article>
+
+        <article class="advantage-card">
+          <span class="advantage-card__index">A 003</span>
+          <h3 class="advantage-card__title">Нейтральный стиль</h3>
+          <p class="advantage-card__text">Черно-белые объекты не спорят с брендом и держат фокус на форме.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="popular" aria-labelledby="popular-title">
+      <div class="section__header">
+        <h2 class="section__title" id="popular-title">Популярное</h2>
+        <a class="section__link" href="pages/catalog.html">Весь каталог</a>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card product-card--hit">
+          <span class="product-card__badge">Хит</span>
+          <div class="product-card__preview" aria-hidden="true">
+            <svg class="mockup mockup--phone" viewBox="0 0 160 160" role="img">
+              <rect x="54" y="20" width="52" height="120" rx="12"></rect>
+              <rect x="76" y="30" width="8" height="2" rx="1" class="mockup__cut"></rect>
+              <circle cx="80" cy="130" r="3" class="mockup__cut"></circle>
+            </svg>
+          </div>
+          <div class="product-card__meta">
+            <span>M 005</span>
+            <span>iPhone</span>
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">iPhone Mockup</h3>
+            <p class="product-card__description">Черный смартфон на белой плоскости для промо-блоков.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">1 900 ₽</span>
+              <a class="product-card__button" href="pages/product.html">Подробнее</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-card__preview" aria-hidden="true">
+            <svg class="mockup mockup--watch" viewBox="0 0 160 160" role="img">
+              <rect x="64" y="14" width="32" height="44" rx="11"></rect>
+              <rect x="55" y="52" width="50" height="56" rx="14"></rect>
+              <rect x="64" y="102" width="32" height="44" rx="11"></rect>
+              <circle cx="80" cy="80" r="14" class="mockup__cut"></circle>
+            </svg>
+          </div>
+          <div class="product-card__meta">
+            <span>M 011</span>
+            <span>Watch</span>
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">Watch Mockup</h3>
+            <p class="product-card__description">Компактный объект для карточек аксессуаров и UI-показов.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">1 600 ₽</span>
+              <a class="product-card__button" href="pages/product.html">Подробнее</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card product-card--new">
+          <span class="product-card__badge">Новинка</span>
+          <div class="product-card__preview" aria-hidden="true">
+            <svg class="mockup mockup--hoodie" viewBox="0 0 160 160" role="img">
+              <path d="M56 50c2-18 14-30 24-30s22 12 24 30l24 10-14 62H46L32 60l24-10Z"></path>
+              <path d="M64 48c4 7 10 11 16 11s12-4 16-11" class="mockup__line"></path>
+              <path d="M63 122h34" class="mockup__line"></path>
+            </svg>
+          </div>
+          <div class="product-card__meta">
+            <span>M 017</span>
+            <span>Hoodie</span>
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">Hoodie Mockup</h3>
+            <p class="product-card__description">Мягкий силуэт для коллекций мерча, капсул и preorder-страниц.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">2 400 ₽</span>
+              <a class="product-card__button" href="pages/product.html">Подробнее</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-card__preview" aria-hidden="true">
+            <svg class="mockup mockup--display" viewBox="0 0 160 160" role="img">
+              <rect x="30" y="34" width="100" height="64" rx="6"></rect>
+              <rect x="73" y="98" width="14" height="26"></rect>
+              <rect x="55" y="122" width="50" height="8" rx="4"></rect>
+              <rect x="38" y="42" width="84" height="48" rx="3" class="mockup__cut"></rect>
+            </svg>
+          </div>
+          <div class="product-card__meta">
+            <span>M 022</span>
+            <span>Display</span>
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">Display Mockup</h3>
+            <p class="product-card__description">Плоский экран для демонстрации сайтов, кабинетов и дашбордов.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">2 100 ₽</span>
+              <a class="product-card__button" href="pages/product.html">Подробнее</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--compact" id="contacts" aria-labelledby="contacts-title">
+      <div class="section__header">
+        <h2 class="section__title" id="contacts-title">Контакты</h2>
+        <a class="section__link" href="pages/order.html">Оставить заявку</a>
+      </div>
+
+      <aside class="contact-panel">
+        <p class="contact-panel__text">Пишите для подбора mockup-набора или сборки витрины под конкретный запуск.</p>
+        <a class="button button--primary" href="mailto:hello@099.supply">hello@099.supply</a>
+      </aside>
+    </section>
+  </main>
+
+  <a class="floating-order" href="pages/order.html" aria-label="Оставить заявку"><span class="floating-order__icon">+</span></a>
+
+  <footer class="site-footer">
+    <p class="site-footer__text">099 Supply / curated digital objects / 2026</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Страница заявки 099 Supply: оформление запроса на mockup-набор, каталог объектов или индивидуальную витрину."
+  >
+  <title>099 Supply - Заявка</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="../index.html" aria-label="099 Supply, главная">099</a>
+
+      <nav class="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li class="site-nav__item"><a class="site-nav__link" href="../index.html">Главная</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="catalog.html">Каталог</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="product.html">Товар</a></li>
+          <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="order.html">Заявка</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- <section class="page-hero" aria-labelledby="order-title">
+      <p class="page-hero__eyebrow">Request form</p>
+      <h1 class="page-hero__title" id="order-title">Заявка</h1>
+      <p class="page-hero__text">
+        Заполните короткую форму, чтобы заказать mockup-набор, получить подборку объектов или обсудить витрину под запуск.
+      </p>
+    </section> -->
+
+    <section class="section section--compact" aria-labelledby="order-form-title">
+      <div class="section__header">
+        <h2 class="section__title" id="order-form-title">Оформление</h2>
+        <a class="section__link" href="contacts.html">Контакты</a>
+      </div>
+
+      <div class="order-layout">
+        <section class="form-card" aria-labelledby="request-title">
+          <div class="form-card__header">
+            <span class="form-card__index">R 001</span>
+            <h3 class="form-card__title" id="request-title">Форма заявки</h3>
+          </div>
+
+          <form class="contact-form order-form" action="#" method="post">
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="order-name">Имя</label>
+              <input class="contact-form__input" id="order-name" name="name" type="text" placeholder="Ваше имя" required>
+            </div>
+
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="order-email">E-mail</label>
+              <input class="contact-form__input" id="order-email" name="email" type="email" placeholder="mail@example.com" required>
+            </div>
+
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="order-phone">Телефон</label>
+              <input class="contact-form__input" id="order-phone" name="phone" type="tel" placeholder="+7 999 000-00-00" required>
+            </div>
+
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="order-product">Выбранный товар</label>
+              <select class="contact-form__input" id="order-product" name="product" required>
+                <option value="">Выберите товар</option>
+                <option value="iphone-mockup">iPhone Mockup</option>
+                <option value="watch-mockup">Watch Mockup</option>
+                <option value="hoodie-mockup">Hoodie Mockup</option>
+                <option value="display-mockup">Display Mockup</option>
+              </select>
+            </div>
+
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="order-format">Формат</label>
+              <select class="contact-form__input" id="order-format" name="format" required>
+                <option value="">Выберите формат</option>
+                <option value="single">Один mockup</option>
+                <option value="bundle">Набор объектов</option>
+                <option value="custom">Индивидуальная витрина</option>
+              </select>
+            </div>
+
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="order-budget">Бюджет</label>
+              <input class="contact-form__input" id="order-budget" name="budget" type="text" placeholder="Например, 5 000 ₽">
+            </div>
+
+            <div class="contact-form__field contact-form__field--wide">
+              <label class="contact-form__label" for="order-comment">Комментарий</label>
+              <textarea class="contact-form__input contact-form__textarea" id="order-comment" name="comment" rows="5" placeholder="Опишите задачу, сроки и нужные материалы" required></textarea>
+            </div>
+
+            <label class="contact-form__consent">
+              <input class="contact-form__checkbox" name="agreement" type="checkbox" required>
+              <span>Согласен на обработку данных</span>
+            </label>
+
+            <div class="contact-form__actions">
+              <button class="button button--ghost" type="reset">Очистить</button>
+              <button class="button button--primary" type="submit">Отправить заявку</button>
+            </div>
+          </form>
+        </section>
+
+        <aside class="order-summary" aria-labelledby="summary-title">
+          <span class="order-summary__index">S 002</span>
+          <h3 class="order-summary__title" id="summary-title">Что дальше</h3>
+
+          <ol class="order-steps">
+            <li class="order-steps__item">
+              <span class="order-steps__number">01</span>
+              <span class="order-steps__text">Проверяем задачу и уточняем состав mockup-набора.</span>
+            </li>
+            <li class="order-steps__item">
+              <span class="order-steps__number">02</span>
+              <span class="order-steps__text">Подбираем объекты, формат файлов и сроки передачи.</span>
+            </li>
+            <li class="order-steps__item">
+              <span class="order-steps__number">03</span>
+              <span class="order-steps__text">Отправляем финальный пакет и короткую инструкцию по использованию.</span>
+            </li>
+          </ol>
+
+          <div class="order-summary__total">
+            <span>Старт</span>
+            <strong>1 600 ₽</strong>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="site-footer__text">099 Supply / curated digital objects / 2026</p>
+  </footer>
+</body>
+</html>
