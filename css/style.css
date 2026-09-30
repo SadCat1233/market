@@ -190,7 +190,7 @@ textarea:focus-visible {
 .hero__title {
   max-width: 12ch;
   margin: 0;
-  font-size: clamp(54px, 11vw, 148px);
+  font-size: 148px;
   font-weight: var(--font-weight-regular);
   line-height: 0.92;
   letter-spacing: 0.025em;
@@ -200,7 +200,7 @@ textarea:focus-visible {
 .page-hero__title {
   max-width: 12ch;
   margin: 0;
-  font-size: clamp(54px, 10vw, 124px);
+  font-size: 124px;
   font-weight: var(--font-weight-regular);
   line-height: 0.92;
   letter-spacing: 0.025em;
@@ -264,7 +264,7 @@ textarea:focus-visible {
   display: grid;
   gap: var(--spacing-4);
   justify-items: end;
-  font-size: clamp(86px, 18vw, 220px);
+  font-size: 220px;
   line-height: 0.82;
   letter-spacing: 0;
 }
@@ -846,7 +846,7 @@ textarea:focus-visible {
   gap: var(--spacing-4);
   margin-top: auto;
   color: var(--color-ink);
-  font-size: clamp(54px, 7vw, 110px);
+  font-size: 110px;
   line-height: 0.82;
 }
 
